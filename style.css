@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/*Comienzo menu navegable header*/
+.header {
+    background-color: rgb(29, 29, 29);
+    padding: 2em 1em 2em 1em;
+    margin: 0em;
+    text-align: right;
+    border-bottom: 2px solid goldenrod;
+}
+/*Final menu navegable header*/
+
+
+
+/*Comienzo tabs*/
+.tabs {
+    font-family: 'Carter One', cursive; text-align: end;
+    color: goldenrod; text-decoration: none;
+}
+
+.ontab {
+    font-family: 'Carter One', cursive; text-align: end;
+    color: gold; text-decoration: none; font-size: 20px;
+}
+
+.ontab:hover {
+    color: gold;
+}
+
+.tabs:hover {
+    color: honeydew;
+}
+
+.tabs:active {
+    color: gold;
+}
+
+.nobullets:hover .tabs {
+    transition: all 0.3s ease-out; font-size: 20px;
+}
+
+.nobullets:not(:hover) .tabs {
+    transition: all 0.3s ease-in-out; font-size: 16px;
+}
+
+/*Tabs final*/
+
+
+
+.titulos {
+    font-family: 'Carter One', cursive; font-style: italic; 
+    color: goldenrod; text-align: center; font-weight: bold;
+    font-size: 4em;  background-color: rgb(29, 29, 29); 
+    display: block; 
+    padding: 0.5em 0em 0.5em 0em; 
+    border-bottom: 2px solid goldenrod;
+    margin: 0em;
+}
+
+.subtitulos {
+    font-family: 'Carter One', cursive; font-style: italic; 
+    color: goldenrod; text-align: center; font-weight: bold;
+    font-size: 4em;  background-color: rgb(29, 29, 29); 
+    display: block; 
+    padding: 0.1em 0em 0.1em 0em; 
+    margin: 0em;
+}
+
+.sections {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid goldenrod; 
+    padding: 2em 0em 2em 0em;
+}
+
+.footer {
+    background-color: rgb(29, 29, 29); 
+    border-top: 2px solid goldenrod;
+    font-family: 'Carter One', cursive; sans-serif; 
+    color: gray; text-align: center; font-size: small;
+    margin-top: auto;
+    padding: 10px 0px 10px 0px;
+}
+
+body {
+        background-image: url('images/spideyposta.jpg');
+        background-position: center; background-size: 100%;
+        background-repeat: no-repeat; background-attachment: 
+        fixed; min-height: 100vh; display: flex; flex-direction: column;
+}
+
+.nobullets {
+    list-style-type: none; display: inline; padding: 0em 1em 0em 1em;
+}
+
+/*Comienzo iframes*/
+.iframe-1 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-2 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-3 {
+    border-color: goldenrod;
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-4 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-5 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-6 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+
+.iframe-7 {
+    border-color: goldenrod; 
+    border-radius: 1em; display: block; width: 100% ; 
+    height: 100%;
+}
+/*Final de iframes*/
+
+
+
+/*Comienzo section containers*/
+.section-container-1 {
+    display: flex; justify-content: center;
+}
+
+.section-container-2 {
+    display: flex; justify-content: center; 
+}
+
+.section-container-3 {
+    display: flex; justify-content: center;
+}
+/*Fin section containers*/
+
+
+
+/*Comienzo section*/
+.section {
+    width: 900px; display: flex; justify-content: space-around; 
+    margin: 10px; border: 8px solid white;
+    border-radius: 19px;
+    background-color: white;
+    animation: transitionIn 0.75s
+}
+/*Fin de section*/
+
+
+
+
+
+
+/*MEDIA. Tengo que desarrollar mas ideas para @media*/
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+    /*  Lo unico que se 
+    me ocurre cambiar es hacer el feed de 
+    instagram en forma vertical en vez de en filas de tres*/ 
+}
+
+
+
+/*Tablet*/
+@media screen and (min-and-width: 481px) and (max-width: 960px) {
+    /*No se me ocurre que podria cambiar por ahora*/
+}
+
+
+
+/*Desktop*/
+@media screen and (min-width: 961px) {
+    /*No se me ocurre que podria cambiar por ahora*/
+}
+
+
+
+.animate__fadeIn {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce;
+    animation-duration: 5s;
+    display: grid; grid-template-rows: 900px 900px 900px;
+    grid-template-columns: 100%;
+    gap: 1em;
+}
+
+
+
+.btn-group {
+    font-family: 'Carter One', cursive; text-align: end;
+    color: goldenrod; text-decoration: none; font-size: 20px;
+}
+
+
+.icons {
+    width: 22px; margin-bottom: 6px;
+}
+
+.nobulletstext {
+    list-style-type: none; display: block; padding: 0em 1em 0em 1em;
+}
+
+/*Segunda transicion del fondo blanco de las
+imagenes de instagram*/
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+/*Imagen redondita de la pagina de biografia*/
+.image {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+
+.image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/*Fin de imagen redondita de perfil*/
+
+/*Relleno de paginas*/
+.rellenosectionbio {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid #daa520; 
+    padding: 2em 0em 40vh 0em;
+}
+
+.rellenosectioncontact {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid #daa520; 
+    padding: 2em 0em 50vh 0em;
+}
+
+.rellenosectioncomissions {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid #daa520; 
+    padding: 2em 0em 48vh 0em;
+}
+
+.rellenosectioncomissions {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid #daa520; 
+    padding: 2em 0em 48vh 0em;
+}
+
+.rellenosectionnewsletter {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid #daa520; 
+    padding: 2em 0em 52vh 0em;
+}
+/*Fin rellenos*/
+
+/*Logos*/
+.instalogo {
+
+    width: 1.5%;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.maillogo {
+    width: 2%;
+}
+
+/*datos de contacto*/
+.callingcard {
+    font-family: 'Carter One', cursive; font-size: larger;
+    color: goldenrod; text-align: center; 
+    background-color: rgb(29, 29, 29); 
+    border-bottom: 2px solid goldenrod; 
+    padding: 2em 0em 2em 0em;   
+}
